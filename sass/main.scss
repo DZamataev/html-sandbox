@@ -1,14 +1,16 @@
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
+@import "compass/css3";
+
+@keyframes fadeIn { 
+  from { opacity: 0; } 
 }
-/* line 7, ../sass/main.scss */
+
 p {
   position: relative;
   top: 100px;
+  
   font: italic bold 5em/1 Bodoni, serif;
   color: #555;
   text-align: center;
+  
   animation: fadeIn 1s infinite alternate;
 }
